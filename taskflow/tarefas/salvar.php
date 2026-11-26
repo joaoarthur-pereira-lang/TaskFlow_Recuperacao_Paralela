@@ -7,7 +7,7 @@ if ($id) {
     header('Location: index.php');
     exit;
 }
-if ($d[0] !== '') {
+if ($d[0] === '') {
     header('Location: form.php?erro=1');
     exit;
 }
